@@ -13,7 +13,6 @@ const User = ({user}:{user:Tdata}) => {
        <>
          {/*main dev*/}
          <div className="bg-gray-400 rounded-md shadow-xl ">
-          <h1>{user.id }</h1>
               {/*user image*/}
             <img className="w-full h-44 rounded-md animated-background bg-gradient-to-r from-gray-400 via-zinc-300 to-white"  src={user.image} alt="" />
               {/*user email*/}
